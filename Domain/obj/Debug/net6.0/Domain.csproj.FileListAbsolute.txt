@@ -1,0 +1,12 @@
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\bin\Debug\net6.0\Domain.dll
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\bin\Debug\net6.0\ref\Domain.dll
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\bin\Debug\net6.0\Domain.pdb
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\obj\Debug\net6.0\Domain.dll
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Domain\obj\Debug\net6.0\Domain.pdb
