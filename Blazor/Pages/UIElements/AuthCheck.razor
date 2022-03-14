@@ -1,5 +1,4 @@
 ﻿@using System.Security.Claims
-@inject NavigationManager NavMgr
 @namespace UIElements
 
 @if (Condition)
@@ -20,20 +19,9 @@ else
     public RenderFragment ChildContentTRUE { get; set; }
     [Parameter]
     public RenderFragment ChildContentFALSE { get; set; }
-    
-    [CascadingParameter]
-    public Task<AuthenticationState> AuthState { get; set; }
 
-    private IEnumerable<Claim> claims;
-    private ClaimsPrincipal user;
-    
     protected override async Task OnInitializedAsync()
     {
-        AuthenticationState authState = await AuthState;
-        user = authState.User;
-        if (user.Identity == null) return;
-
-        claims = user.Claims;
     }
 
 }
