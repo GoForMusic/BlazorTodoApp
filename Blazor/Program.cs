@@ -1,7 +1,9 @@
+using Blazor.Authentication;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Domain.Contracts;
 using FileData.DataAccess;
+using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<FileContext>();
 builder.Services.AddScoped<ITodoHome, TodoFileDAO>();
+builder.Services.AddScoped<AuthenticationStateProvider, SimpleAuthenticationStateProvider>();
+builder.Services.AddScoped<IAuthService, AuthServiceImpl>();
+builder.Services.AddScoped<IUserSerivice, InMemoryUserService>();
 
 var app = builder.Build();
 

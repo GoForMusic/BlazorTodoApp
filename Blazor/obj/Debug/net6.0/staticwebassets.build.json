@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BZImwDu929hj7Q50+zqBO8yCJGUmzyQKnBd7CN+tXe8=",
+  "Hash": "Dn0gCDB1GIswAMcva5+8RvRHdHXc8niWX1UnWqyWxQI=",
   "Source": "Blazor",
   "BasePath": "_content/Blazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Blazor\\wwwroot",
       "Source": "Blazor",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Blazor.styles.css",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Blazor.styles.css",
       "SourceId": "Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "Blazor.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Blazor.styles.css"
+      "OriginalItemSpec": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Blazor.styles.css"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blazor.bundle.scp.css",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blazor.bundle.scp.css",
       "SourceId": "Blazor",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "Blazor.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blazor.bundle.scp.css"
+      "OriginalItemSpec": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Blazor.bundle.scp.css"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\css\\site.css",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\css\\site.css",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\favicon.ico",
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\favicon.ico",
       "SourceId": "Blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
       "BasePath": "_content/Blazor",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -270,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\img\\Login.png",
+      "SourceId": "Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "BasePath": "_content/Blazor",
+      "RelativePath": "img/Login.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Login.png"
+    },
+    {
+      "Identity": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\img\\Logout.png",
+      "SourceId": "Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\wwwroot\\",
+      "BasePath": "_content/Blazor",
+      "RelativePath": "img/Logout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logout.png"
     }
   ]
 }

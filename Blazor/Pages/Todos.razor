@@ -2,6 +2,7 @@
 @using Domain.Models
 @using Domain.Contracts
 @using UIElements
+@using System.Security.Claims
 @inject ITodoHome TodoHome
 @inject NavigationManager navMgr
 
@@ -65,14 +66,21 @@ else
         @foreach (var item in todosToShow)
         {
             <tr>
-                <td>@item.OwnerId</td> 
-                <td>@item.Id</td> 
-                <td>@item.Title</td> 
+                <td>@item.OwnerId</td>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
                 <td>
                     <Toggle IsCompleted="@item.IsCompleted" Callback="@(b => ToggleStatus(b, item))"/>
                 </td>
                 <td>
-                    <img src="img/edit.gif" class="funnel" @onclick="@(() => ShowEdit(item))"/>
+                    <AuthCheck Condition="@checkEditPermission()">
+                        <ChildContentTRUE>
+                            <img src="img/edit.gif" class="funnel" @onclick="@(() => ShowEdit(item))"/>
+                        </ChildContentTRUE>
+                        <ChildContentFALSE>
+                            NEED PERMISION!!
+                        </ChildContentFALSE>
+                    </AuthCheck>
                 </td>
                 
                 <td>
@@ -87,10 +95,7 @@ else
 {
     <label style="color: red">@errorLabel</label>
 }
-@if (!string.IsNullOrEmpty(errorLabel))
-{
-    <label style="color: red">@errorLabel</label>
-}
+
 
 @if (showModal)
 {
@@ -122,24 +127,42 @@ else
     </Modal>
 }
 
+
+
 @code {
+    //todo collection
     private ICollection<Todo> allTodos, todosToShow;
     private string errorLabel=String.Empty;
 
+    //show modal
     private bool showModal;
     private string editedTitle = String.Empty;
     private int editedOwner;
     private Todo todoToEdit = new();
     private string editErrorLabel = string.Empty;
     
+    //filters
     private int? ownerIdFilter;
     private bool? isCompletedFilter;
     private bool doShowFilters;
+
+    
+    //Get the user clain for authorization
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; }
+
+    private IEnumerable<Claim>? claims;
+    private ClaimsPrincipal? user;
 
     protected override async Task OnInitializedAsync()
     {
         allTodos = await TodoHome.GetAsync();
         todosToShow = allTodos;
+        
+        //login check
+        AuthenticationState authState = await AuthState;
+        user = authState.User;
+        claims = user.Claims;
     }
 
     private async Task RemoveTodo(int id)
@@ -156,7 +179,23 @@ else
             errorLabel = e.Message;
         }
     }
-
+    
+    //function that will check if the user is log-in and get the claim, base on the role will show the function to edit a todo from the list
+    private bool checkEditPermission()
+    {
+        bool ConditionEditLogin = false;
+        try
+        {
+            ConditionEditLogin = claims.First(c => c.Type.Equals("Role")).Value.Equals("Teacher");
+            return ConditionEditLogin;
+        }
+        catch (Exception e)
+        {
+            ConditionEditLogin = false;
+        }
+        return false;
+    }
+    
     private async Task ToggleStatus(bool status, Todo todo)
     {
         errorLabel = "";

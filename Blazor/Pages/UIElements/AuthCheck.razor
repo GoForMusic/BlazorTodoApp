@@ -1,0 +1,39 @@
+﻿@using System.Security.Claims
+@inject NavigationManager NavMgr
+@namespace UIElements
+
+@if (Condition)
+{
+    @ChildContentTRUE
+}
+else
+{ 
+    @ChildContentFALSE
+}
+
+
+@code {
+    //claims.First(c => c.Type.Equals("Domain")).Value.Equals("via") / condition to be accepted to see the page when you are log-in
+    [Parameter]
+    public bool Condition { get; set; }
+    [Parameter]
+    public RenderFragment ChildContentTRUE { get; set; }
+    [Parameter]
+    public RenderFragment ChildContentFALSE { get; set; }
+    
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; }
+
+    private IEnumerable<Claim> claims;
+    private ClaimsPrincipal user;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authState = await AuthState;
+        user = authState.User;
+        if (user.Identity == null) return;
+
+        claims = user.Claims;
+    }
+
+}

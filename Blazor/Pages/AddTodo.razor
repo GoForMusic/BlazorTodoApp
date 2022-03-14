@@ -1,49 +1,80 @@
 ﻿@page "/AddTodo"
+@attribute [Authorize]
+
 @using Domain.Models
 @using Domain.Contracts
 @using UIElements
 @inject ITodoHome TodoHome
 @inject NavigationManager NavMgr
+@using System.Security.Claims
 
-<h3>AddTodo</h3>
 
-<div class="box">
-<EditForm Model="@newTodoItem" OnValidSubmit="@AddNewTodo">
-    <DataAnnotationsValidator/> 
-    <ValidationSummary/>
-    <div class="form-group">
-        <span>
-            <label>User Id:</label>
-        </span>
-        <span>
-            <InputNumber @bind-Value="newTodoItem.OwnerId"/>
-        </span>
-    </div>
-    <div class="form-group">
-        <span>
-            <label>Title:</label>
-        </span>
-        <span>
-            <InputTextArea rows="4" @bind-Value="newTodoItem.Title"/>
-        </span>
-    </div>
-    <p class="actions">
-        <button class="btn btn-outline-dark" type="submit">Create</button>
-    </p>
-</EditForm>
-    <label>@errorLabel</label>
-    @if (!string.IsNullOrEmpty(errorLabel))
-        {
-            <label>@errorLabel</label>
-        }
-        @if (showModal)
-        {
-            <Modal>
-                <p>You have successfully added a new Todo item. You should be very proud of yourself</p>
-                <button @onclick="@Proceed">Wonderful</button>
-            </Modal>
-        }
-</div>
+<AuthCheck Condition="@(claims.First(c => c.Type.Equals("Role")).Value.Equals("Teacher"))">
+    <ChildContentTRUE>
+        <h3>AddTodo</h3>
+            
+            <div class="box">
+            <EditForm Model="@newTodoItem" OnValidSubmit="@AddNewTodo">
+                <DataAnnotationsValidator/> 
+                <ValidationSummary/>
+                <div class="form-group">
+                    <span>
+                        <label>User Id:</label>
+                    </span>
+                    <span>
+                        <InputNumber @bind-Value="newTodoItem.OwnerId"/>
+                    </span>
+                </div>
+                <div class="form-group">
+                    <span>
+                        <label>Title:</label>
+                    </span>
+                    <span>
+                        <InputTextArea rows="4" @bind-Value="newTodoItem.Title"/>
+                    </span>
+                </div>
+                <p class="actions">
+                    <button class="btn btn-outline-dark" type="submit">Create</button>
+                </p>
+            </EditForm>
+                <label>@errorLabel</label>
+                @if (!string.IsNullOrEmpty(errorLabel))
+                    {
+                        <label>@errorLabel</label>
+                    }
+                    @if (showModal)
+                    {
+                        <Modal>
+                            <p>You have successfully added a new Todo item. You should be very proud of yourself</p>
+                            <button @onclick="@Proceed">Wonderful</button>
+                        </Modal>
+                    }
+            </div>
+    </ChildContentTRUE>
+    <ChildContentFALSE>
+        <p>You are not a VIA Teacher and you can't do this action</p>
+    </ChildContentFALSE>
+</AuthCheck>
+
+
+@code {
+    //Get the user clain for authorization
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; }
+
+    private IEnumerable<Claim> claims;
+    private ClaimsPrincipal user;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState authState = await AuthState;
+        user = authState.User;
+        if (user.Identity == null) return;
+
+        claims = user.Claims;
+    }
+
+}
 
 @code {
     private Todo newTodoItem = new Todo();
