@@ -14,10 +14,10 @@ builder.Services.AddServerSideBlazor();
 
 //Service
 builder.Services.AddScoped<ITodoHome, TodoHttpService>();
+builder.Services.AddScoped<IUserSerivice, UserHttpService>();
 
 builder.Services.AddScoped<AuthenticationStateProvider, SimpleAuthenticationStateProvider>();
 builder.Services.AddScoped<IAuthService, AuthServiceImpl>();
-builder.Services.AddScoped<IUserSerivice, InMemoryUserService>();
 
 var app = builder.Build();
 

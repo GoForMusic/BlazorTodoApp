@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ITodoHome, TodoFileDAO>();
+builder.Services.AddScoped<IUserSerivice, InMemoryUserService>();
 builder.Services.AddScoped<FileContext>();
 
 var app = builder.Build();

@@ -12,4 +12,7 @@ public class User
     public int BirthYear { get;  set; }
 
     public string Domain { get; set; }
+
+    public User()
+    {}
 }
