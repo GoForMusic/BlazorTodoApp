@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\Blazor.csproj": {}
+    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj": {}
   },
   "projects": {
-    "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\Blazor.csproj": {
+    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\Blazor.csproj",
+        "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj",
         "projectName": "Blazor",
-        "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\Blazor.csproj",
+        "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\obj\\",
+        "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj": {
-                "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj"
+              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj"
+              },
+              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj": {
+                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj"
+              },
+              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj": {
+                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj"
               }
             }
           }
@@ -63,14 +69,14 @@
         }
       }
     },
-    "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\Domain.csproj": {
+    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\Domain.csproj",
+        "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\obj\\",
+        "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -115,14 +121,14 @@
         }
       }
     },
-    "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj": {
+    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj",
+        "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj",
         "projectName": "FileData",
-        "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj",
+        "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\obj\\",
+        "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -137,8 +143,64 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\Domain.csproj"
+              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj",
+        "projectName": "HttpServices",
+        "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj"
               }
             }
           }

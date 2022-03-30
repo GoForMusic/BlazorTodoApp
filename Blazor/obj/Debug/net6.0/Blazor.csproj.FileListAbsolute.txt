@@ -73,3 +73,6 @@ D:\VIA_Courses\BlazorTodoApp\Blazor\obj\Debug\net6.0\Blazor.dll
 D:\VIA_Courses\BlazorTodoApp\Blazor\obj\Debug\net6.0\ref\Blazor.dll
 D:\VIA_Courses\BlazorTodoApp\Blazor\obj\Debug\net6.0\Blazor.pdb
 D:\VIA_Courses\BlazorTodoApp\Blazor\obj\Debug\net6.0\Blazor.genruntimeconfig.cache
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Blazor\bin\Debug\net6.0\HttpServices.dll
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Blazor\bin\Debug\net6.0\HttpServices.pdb
+D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Blazor\obj\Debug\net6.0\scopedcss\Pages\Login.razor.rz.scp.css

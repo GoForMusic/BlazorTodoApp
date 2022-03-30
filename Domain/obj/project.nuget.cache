@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sgiNnv6NmAnJ7RJrNpSmK0f3xHGfZYskFFveeEV/oa9kMElo6w+GlBsLlMyfXTglQbz2Kiv1T84ViTn22GX+qg==",
+  "dgSpecHash": "/BR1llXM2vHbSyaj+qbDU31NfCE4AxfPCklLz82+W7wh+OJdvWoCbrvXTiLLP6hwXWtAxKI9Sur3A3ub4icYuA==",
   "success": true,
-  "projectFilePath": "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

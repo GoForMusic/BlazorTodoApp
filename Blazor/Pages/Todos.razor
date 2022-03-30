@@ -156,8 +156,16 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        allTodos = await TodoHome.GetAsync();
-        todosToShow = allTodos;
+        try
+        {
+            allTodos = await TodoHome.GetAsync();
+            todosToShow = allTodos;
+        }
+        catch (Exception e)
+        {
+            errorLabel = e.Message;
+        }
+        
         
         //login check
         AuthenticationState authState = await AuthState;

@@ -8,81 +8,81 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Blazor
 build_property.RootNamespace = Blazor
-build_property.ProjectDir = D:\VIA_Courses\BlazorTodoApp\Blazor\
+build_property.ProjectDir = D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Blazor\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\VIA_Courses\BlazorTodoApp\Blazor
+build_property.MSBuildProjectDirectory = D:\VIA_Courses\EXComplexe\SDJDNP-Ex3\DNP\BlazorTodoApp\Blazor
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/App.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/EditTodo.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/EditTodo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRvZG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/Index.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/UIElements/AuthCheck.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/UIElements/AuthCheck.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlFbGVtZW50c1xBdXRoQ2hlY2sucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/UIElements/LoginButtons.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/UIElements/LoginButtons.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlFbGVtZW50c1xMb2dpbkJ1dHRvbnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Shared/AuthChallenge.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Shared/AuthChallenge.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEF1dGhDaGFsbGVuZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Shared/SurveyPrompt.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/_Imports.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/AddTodo.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/AddTodo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-zqc52s6j8g
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/Login.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-n3b4hveadi
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/Todos.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/Todos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-2vmocqnt9p
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/UIElements/Modal.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/UIElements/Modal.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlFbGVtZW50c1xNb2RhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-bbve5ylzt2
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/UIElements/Toggle.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/UIElements/Toggle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlFbGVtZW50c1xUb2dnbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-azy85osjtn
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Shared/MainLayout.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r0yqwuvdyg
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Shared/NavMenu.razor]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6hj6azdo60
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/Error.cshtml]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/_Host.cshtml]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA_Courses/BlazorTodoApp/Blazor/Pages/_Layout.cshtml]
+[D:/VIA_Courses/EXComplexe/SDJDNP-Ex3/DNP/BlazorTodoApp/Blazor/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

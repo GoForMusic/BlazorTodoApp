@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj",
+      "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj",
       "projectName": "FileData",
-      "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj",
+      "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj",
       "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-      "outputPath": "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\obj\\",
+      "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\Domain\\Domain.csproj"
+            "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj"
             }
           }
         }

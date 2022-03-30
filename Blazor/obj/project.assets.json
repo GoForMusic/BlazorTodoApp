@@ -24,6 +24,19 @@
         "runtime": {
           "bin/placeholder/FileData.dll": {}
         }
+      },
+      "HttpServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HttpServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HttpServices.dll": {}
+        }
       }
     }
   },
@@ -37,11 +50,18 @@
       "type": "project",
       "path": "../FileData/FileData.csproj",
       "msbuildProject": "../FileData/FileData.csproj"
+    },
+    "HttpServices/1.0.0": {
+      "type": "project",
+      "path": "../HttpServices/HttpServices.csproj",
+      "msbuildProject": "../HttpServices/HttpServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FileData >= 1.0.0"
+      "Domain >= 1.0.0",
+      "FileData >= 1.0.0",
+      "HttpServices >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\Blazor.csproj",
+      "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj",
       "projectName": "Blazor",
-      "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\Blazor.csproj",
+      "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj",
       "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-      "outputPath": "D:\\VIA_Courses\\BlazorTodoApp\\Blazor\\obj\\",
+      "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -69,8 +89,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj": {
-              "projectPath": "D:\\VIA_Courses\\BlazorTodoApp\\FileData\\FileData.csproj"
+            "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj"
+            },
+            "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj": {
+              "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj"
+            },
+            "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj": {
+              "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj"
             }
           }
         }

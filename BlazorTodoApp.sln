@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileDa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{5215B104-F126-466D-A2A6-A18DBC02952E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpServices", "HttpServices\HttpServices.csproj", "{422288F5-843E-40C4-B704-A09300E1AAF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{5215B104-F126-466D-A2A6-A18DBC02952E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5215B104-F126-466D-A2A6-A18DBC02952E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5215B104-F126-466D-A2A6-A18DBC02952E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422288F5-843E-40C4-B704-A09300E1AAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422288F5-843E-40C4-B704-A09300E1AAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422288F5-843E-40C4-B704-A09300E1AAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422288F5-843E-40C4-B704-A09300E1AAF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

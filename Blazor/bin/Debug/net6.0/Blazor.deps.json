@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "Blazor/1.0.0": {
         "dependencies": {
-          "FileData": "1.0.0"
+          "Domain": "1.0.0",
+          "FileData": "1.0.0",
+          "HttpServices": "1.0.0"
         },
         "runtime": {
           "Blazor.dll": {}
@@ -26,6 +28,14 @@
         "runtime": {
           "FileData.dll": {}
         }
+      },
+      "HttpServices/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "HttpServices.dll": {}
+        }
       }
     }
   },
@@ -41,6 +51,11 @@
       "sha512": ""
     },
     "FileData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HttpServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
