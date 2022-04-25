@@ -1,0 +1,17 @@
+D:\Unity\TODO\EfcData\bin\Debug\net6.0\EfcData.deps.json
+D:\Unity\TODO\EfcData\bin\Debug\net6.0\EfcData.runtimeconfig.json
+D:\Unity\TODO\EfcData\bin\Debug\net6.0\EfcData.dll
+D:\Unity\TODO\EfcData\bin\Debug\net6.0\ref\EfcData.dll
+D:\Unity\TODO\EfcData\bin\Debug\net6.0\EfcData.pdb
+D:\Unity\TODO\EfcData\bin\Debug\net6.0\Domain.dll
+D:\Unity\TODO\EfcData\bin\Debug\net6.0\Domain.pdb
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.csproj.AssemblyReference.cache
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.AssemblyInfoInputs.cache
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.AssemblyInfo.cs
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.csproj.CoreCompileInputs.cache
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.csproj.CopyComplete
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.dll
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\ref\EfcData.dll
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.pdb
+D:\Unity\TODO\EfcData\obj\Debug\net6.0\EfcData.genruntimeconfig.cache

@@ -1,5 +1,11 @@
 using Domain.Contracts;
+using EfcData;
 using FileData.DataAccess;
+
+using (TodoContext ctx = new())
+{
+    ctx.Seed();
+}
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +16,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<ITodoHome, TodoFileDAO>();
-builder.Services.AddScoped<IUserSerivice, InMemoryUserService>();
-builder.Services.AddScoped<FileContext>();
+builder.Services.AddScoped<ITodoHome, TodoSqliteDAO>();
+//builder.Services.AddScoped<IUserSerivice, InMemoryUserService>();
+builder.Services.AddDbContext<TodoContext>();
 
 var app = builder.Build();
 

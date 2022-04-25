@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2iA1RZJX4/dTh5mu/8IP+MjeIeTdteKpeLLYCzWjjscnO3yFzMiwAqkKkm7p5s0mzrGKreFnOQZO1OUkK2ffvw==",
+  "dgSpecHash": "V5rS1Qq7FAKp+XA19gBb4ugBWeOifcA4M/n92dRLJDnmB8yViInbk0iGiJtD71G69cucHk5w/Ofk/rPJ/HFewQ==",
   "success": true,
-  "projectFilePath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj",
+  "projectFilePath": "D:\\Unity\\TODO\\HttpServices\\HttpServices.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

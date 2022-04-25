@@ -1,39 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj": {}
+    "D:\\Unity\\TODO\\Blazor\\Blazor.csproj": {}
   },
   "projects": {
-    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj": {
+    "D:\\Unity\\TODO\\Blazor\\Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj",
+        "projectUniqueName": "D:\\Unity\\TODO\\Blazor\\Blazor.csproj",
         "projectName": "Blazor",
-        "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj",
+        "projectPath": "D:\\Unity\\TODO\\Blazor\\Blazor.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\obj\\",
+        "outputPath": "D:\\Unity\\TODO\\Blazor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj"
+              "D:\\Unity\\TODO\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Unity\\TODO\\Domain\\Domain.csproj"
               },
-              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj": {
-                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj"
+              "D:\\Unity\\TODO\\FileData\\FileData.csproj": {
+                "projectPath": "D:\\Unity\\TODO\\FileData\\FileData.csproj"
               },
-              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj": {
-                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj"
+              "D:\\Unity\\TODO\\HttpServices\\HttpServices.csproj": {
+                "projectPath": "D:\\Unity\\TODO\\HttpServices\\HttpServices.csproj"
               }
             }
           }
@@ -69,22 +75,28 @@
         }
       }
     },
-    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
+    "D:\\Unity\\TODO\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Unity\\TODO\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Unity\\TODO\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\obj\\",
+        "outputPath": "D:\\Unity\\TODO\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -121,30 +133,36 @@
         }
       }
     },
-    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj": {
+    "D:\\Unity\\TODO\\FileData\\FileData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj",
+        "projectUniqueName": "D:\\Unity\\TODO\\FileData\\FileData.csproj",
         "projectName": "FileData",
-        "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\FileData.csproj",
+        "projectPath": "D:\\Unity\\TODO\\FileData\\FileData.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\FileData\\obj\\",
+        "outputPath": "D:\\Unity\\TODO\\FileData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj"
+              "D:\\Unity\\TODO\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Unity\\TODO\\Domain\\Domain.csproj"
               }
             }
           }
@@ -177,30 +195,36 @@
         }
       }
     },
-    "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj": {
+    "D:\\Unity\\TODO\\HttpServices\\HttpServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj",
+        "projectUniqueName": "D:\\Unity\\TODO\\HttpServices\\HttpServices.csproj",
         "projectName": "HttpServices",
-        "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\HttpServices.csproj",
+        "projectPath": "D:\\Unity\\TODO\\HttpServices\\HttpServices.csproj",
         "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\HttpServices\\obj\\",
+        "outputPath": "D:\\Unity\\TODO\\HttpServices\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Domain\\Domain.csproj"
+              "D:\\Unity\\TODO\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Unity\\TODO\\Domain\\Domain.csproj"
               }
             }
           }

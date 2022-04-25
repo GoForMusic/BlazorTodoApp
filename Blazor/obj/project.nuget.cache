@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IGc/vjzysJG1x4MC/sdI9vcT0Bkcxut0O4WUEZF6Hz0s35LCQa4GTSH5993PKTLED6FMmxKqU7Jw2wptIR4zmg==",
+  "dgSpecHash": "HvGbHFGOIV3K8OzzCe1KiOuWZwUn/70WuqJwvErBQpPIAGH0pqEXxVs8JR8b383F0a/lCnfHt8Cz4Qu1YxthcQ==",
   "success": true,
-  "projectFilePath": "D:\\VIA_Courses\\EXComplexe\\SDJDNP-Ex3\\DNP\\BlazorTodoApp\\Blazor\\Blazor.csproj",
+  "projectFilePath": "D:\\Unity\\TODO\\Blazor\\Blazor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
