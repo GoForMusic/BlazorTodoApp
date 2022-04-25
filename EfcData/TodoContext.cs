@@ -10,7 +10,7 @@ public class TodoContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite(@"Data Source = D:\Unity\TODO\EfcData\Todo.db");
+        optionsBuilder.UseSqlite(@"Data Source = ..\EfcData\Todo.db");
     }
     
     public void Seed()
